@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_obs_gh_paulurfi_harnesscd_example_apps_1704748057936-push-trigger-input-set
+  identifier: Build_obs_gh_paulurfi_harnesscd_example_apps_1704748057936pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: PMU_Harness_CI_CD_SE_Lab
+  pipeline:
+    identifier: Build_obs_gh_paulurfi_harnesscd_example_apps_1704748057936
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
